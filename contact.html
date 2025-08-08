@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>3ABN Pools Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contact/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contact/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contact/fonts/iconic/css/material-design-iconic-font.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contact/vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contact/vendor/animsition/css/animsition.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contact/vendor/select2/select2.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="contact/vendor/daterangepicker/daterangepicker.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="contact/css/util.css" />
+    <link rel="stylesheet" type="text/css" href="contact/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <!--===============================================================================================-->
+  </head>
+  <body>
+    <!-- Showcase & Nav -->
+    <div id="showcase">
+      <header>
+        <nav class="cf">
+          <ul class="cf" id="nav-container">
+            <li class="nav-item" id="branding">
+              <a href="../#homeContainer" data-button="home-page"
+                >3 ABN Pools Inc.</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="../#poolContainer"
+                data-button="pool-page"
+                title="View the type of pools we do."
+                >Our Pools</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="../#deckContainer"
+                data-button="deck-page"
+                title="View the decks we can make for you."
+                >Our Decks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/contact.html"
+                data-button="contact-page"
+                title="Speak to us and get started on your pool today!"
+                >Contact Us!</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="../#portfolio"
+                data-button="portfolio-page"
+                title="See all our beloved custom created pools!"
+                >Portfolio</a
+              >
+            </li>
+          </ul>
+          <img src="" /><a href="#" id="openup">MENU</a>
+          <a href="#" id="logo">3 ABN</a>
+        </nav>
+      </header>
+    </div>
+    <div class="container-contact100">
+      <div class="wrap-contact100">
+        <form id="contactForm" class="contact100-form validate-form">
+          <span class="contact100-form-title"> Contact Us </span>
+          <h3 id="contactHeader">Or speak to us directly at</h3>
+          <h4 id="phoneNumbers">
+            <a
+              style="text-decoration: none; font-size: 1.1em"
+              href="tel:+4072808320"
+              >+1(407) 280-8320</a
+            >
+            <span>Or at</span>
+            <a
+              style="text-decoration: none; font-size: 1.1em"
+              href="tel:+4074702510"
+              >+1(407) 470-2510</a
+            >
+          </h4>
+          <div class="alert">Your message has been sent</div>
+          <label class="label-input100" for="first-name">Your Name *</label>
+          <div class="wrap-input100 rs1 validate-input">
+            <input
+              id="first-name"
+              class="input100"
+              type="text"
+              name="first-name"
+              placeholder="First name"
+            />
+            <span class="focus-input100"></span>
+          </div>
+          <div class="wrap-input100 rs1 validate-input">
+            <input
+              id="last-name"
+              class="input100"
+              type="text"
+              name="last-name"
+              placeholder="Last name"
+            />
+            <span class="focus-input100"></span>
+          </div>
+
+          <label class="label-input100" for="email">Email Address *</label>
+          <div class="wrap-input100 validate-input">
+            <input
+              id="email"
+              class="input100"
+              type="text"
+              name="email"
+              placeholder="Eg. example@email.com"
+            />
+            <span class="focus-input100"></span>
+          </div>
+
+          <label class="label-input100" for="phone">Phone Number</label>
+          <div class="wrap-input100">
+            <input
+              id="phone"
+              class="input100"
+              type="text"
+              name="phone"
+              placeholder="Eg. +1 800 000000"
+            />
+            <span class="focus-input100"></span>
+          </div>
+
+          <label class="label-input100" for="message">Message *</label>
+          <div class="wrap-input100 validate-input">
+            <textarea
+              id="message"
+              class="input100"
+              name="message"
+              placeholder="Please enter your comments..."
+            ></textarea>
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="container-contact100-form-btn">
+            <button type="submit" class="contact100-form-btn">
+              <span>
+                Submit
+                <i class="zmdi zmdi-arrow-right m-l-8"></i>
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
+    <!--===============================================================================================-->
+    <script src="contact/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="contact/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="contact/vendor/bootstrap/js/popper.js"></script>
+    <script src="contact/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="contact/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="contact/vendor/daterangepicker/moment.min.js"></script>
+    <script src="contact/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="contact/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="contact/js/main.js"></script>
+    <script src="./js/event.js"></script>
+    <!--===============================================================================================-->
+    <script>
+      $(function () {
+        menu = $("nav ul");
+
+        $("#openup").on("click", function (e) {
+          e.preventDefault();
+          menu.slideToggle();
+        });
+
+        $(window).resize(function () {
+          var w = $(this).width();
+          if (w > 480 && menu.is(":hidden")) {
+            menu.removeAttr("style");
+          }
+        });
+
+        $("nav li").on("click", function (e) {
+          var w = $(window).width();
+          if (w < 480) {
+            menu.slideToggle();
+          }
+        });
+        $(".open-menu").height($(window).height());
+      });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-23581568-13");
+    </script>
+  </body>
+</html>
